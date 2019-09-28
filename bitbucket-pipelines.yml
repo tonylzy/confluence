@@ -9,7 +9,7 @@ pipelines:
             - docker
           script:
             - export START_VERSION='6'
-            - export END_VERSION='8'
+            - export END_VERSION='7'
             - export DEFAULT_RELEASE='false'
             - export DOCKER_REPO='atlassian/confluence-server'
             - export DOCKERFILE='Dockerfile-alpine'
@@ -69,7 +69,7 @@ pipelines:
             - docker
           script:
             - export START_VERSION='6'
-            - export END_VERSION='8'
+            - export END_VERSION='7'
             - export DEFAULT_RELEASE='false'
             - export DOCKER_REPO='atlassian/confluence-server'
             - export DOCKERFILE='Dockerfile-alpine'
