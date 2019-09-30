@@ -6,7 +6,7 @@ import requests
 
 MAC_PRODUCT_KEY = 'confluence'
 DOCKER_VERSION_ARG = 'CONFLUENCE_VERSION'
-DOCKERFILES = ['Dockerfile', 'Dockerfile-alpine']
+DOCKERFILES = ['Dockerfile']
 IMAGE_NAME = 'confluence-dev'
 
 # This fixture cleans up running containers whose base image matches IMAGE_NAME after each test
