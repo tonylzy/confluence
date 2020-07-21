@@ -53,4 +53,4 @@ COPY entrypoint.py \
      shared-components/image/entrypoint_helpers.py  /
 COPY shared-components/support                      /opt/atlassian/support
 COPY config/*                                       /opt/atlassian/etc/
-COPY cacerts ${CONFLUENCE_INSTALL_DIR}/jre/lib/security
+COPY cacerts /opt/java/openjdk/lib/security
