@@ -27,7 +27,7 @@ ARG TINI_VERSION=v0.18.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /sbin/tini
 RUN chmod +x /sbin/tini
 
-ARG CONFLUENCE_VERSION=7.2.2
+ARG CONFLUENCE_VERSION=7.3.3
 ARG DOWNLOAD_URL=https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz
 
 RUN groupadd --gid ${RUN_GID} ${RUN_GROUP} \
